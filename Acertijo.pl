@@ -16,7 +16,7 @@ Los indices de la tupla son: granjero,lobo,cabra,col.
 buscar :- camino([0,0,0,0],[1,1,1,1],[[0,0,0,0]],_).
 
 %Caso base en el que hemos llegado a la situación deseada
-camino([A,B,C,D],[A,B,C,D],_,Movimientos):-  nl,nl,mostrar(Movimientos).
+camino([A,B,C,D],[A,B,C,D],_,Movimientos):-  nl,nl,mostrar(Movimientos),!.
 
 %Caso recursivo en el que vamos de una situación A a una situación B
 %Hacemos un movimiento, comprobamos que es legal, comprobamos que no nos ha llevado a una
