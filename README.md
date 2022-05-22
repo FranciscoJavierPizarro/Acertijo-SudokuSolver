@@ -1,6 +1,22 @@
-Este repositorio contiene un programa que da solución al acertijo del granjero, el lobo, la cabra y la col.
+Este repositorio contiene los siguientes programas:
 
-Así como otro programa que resuelve sudokus.
+- Solucionador del acertijo del granjero, la cabra, el lobo y la col en prolog.
+
+- Solucionador de sudokus en prolog.
+
+- El juego del caballo en python.
+
+## Juego del caballo
+
+El caballo comienza en una casilla aleatoria del tablero y debe recorrer todas las casillas del mismo sin repetir su paso por ninguna,
+
+para modificar el tamaño del tablero modificar las constantes definidas al principio del programa.
+
+Para ejecutar el programa:
+
+```
+python juegoDelCaballo.py
+```
 
 ## Sudokus
 
