@@ -6,6 +6,8 @@ Este repositorio contiene los siguientes programas:
 
 - El juego del caballo en python.
 
+- Solucionador del acertijo de los misioneros y los caníbales
+
 ## Juego del caballo
 
 El caballo comienza en una casilla aleatoria del tablero y debe recorrer todas las casillas del mismo sin repetir su paso por ninguna,
@@ -52,3 +54,18 @@ buscar.
 ```
 
 Para mostrar soluciones alternativas escribir ';'
+
+## Acertijo misioneros-caníbales
+Solución al acertijo de los misioneros y los caníbales planteada en el lenguaje haskell mediante el uso de grafos.
+### Como ejecutarlo
+Ejecutar el siguiente comando para compilar
+
+```
+ghc canibals.hs
+```
+
+Para ejecutarlo
+
+```
+./canibals
+```
