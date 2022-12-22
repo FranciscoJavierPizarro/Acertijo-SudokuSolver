@@ -8,6 +8,8 @@ Este repositorio contiene los siguientes programas:
 
 - Solucionador del acertijo de los misioneros y los caníbales
 
+- Solucionador del acertijo de las fichas(8 puzzle lineal)
+
 ## Juego del caballo
 
 El caballo comienza en una casilla aleatoria del tablero y debe recorrer todas las casillas del mismo sin repetir su paso por ninguna,
@@ -68,4 +70,28 @@ Para ejecutarlo
 
 ```
 ./canibals
+```
+
+## Juego de las fichas
+En este juego contamos con una fila de fichas que comienza de esta forma
+
+B B B H V V V
+
+El objetivo es intercambiando el hueco por una ficha que como mucho tenga a otras 2 entre el hueco y dicha ficha es alcanzar la siguiente configuración
+
+V V V H B B B
+
+Para resolverlo este algoritmo emplea una búsqueda informada del tipo A*
+
+### Como ejecutarlo
+
+Emplear CLIPS en su versión (6.30 3/17/15)
+
+```
+clips -f fichas.clp
+```
+
+Una vez lanzado escribir en la terminal clips lo siguiente
+```
+(run)
 ```
