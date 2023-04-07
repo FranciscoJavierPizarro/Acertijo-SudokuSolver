@@ -1,4 +1,5 @@
 Este repositorio contiene los siguientes programas:
+- Snake game en python.
 
 - Solucionador del acertijo del granjero, la cabra, el lobo y la col en prolog.
 
@@ -9,6 +10,14 @@ Este repositorio contiene los siguientes programas:
 - Solucionador del acertijo de los misioneros y los caníbales
 
 - Solucionador del acertijo de las fichas(8 puzzle lineal)
+
+## Snake game
+
+Es el clásico juego, para ejecutarlo lanzar el siguiente comando:
+
+```
+python snake.py
+```
 
 ## Juego del caballo
 
