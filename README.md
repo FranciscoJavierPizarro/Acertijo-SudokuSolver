@@ -1,5 +1,8 @@
 Este repositorio contiene los siguientes programas:
+
 - Snake game en python.
+
+- Creador y solucionador de laberintos en C++.
 
 - Solucionador del acertijo del granjero, la cabra, el lobo y la col en prolog.
 
@@ -18,6 +21,17 @@ Es el clásico juego, para ejecutarlo lanzar el siguiente comando:
 ```
 python snake.py
 ```
+
+## Creador y solucionador de laberintos en C++
+
+Este programa tiene 2 modos de ejecución en el primero de ellos se ejecuta adjuntando como parámetro el nombre de un fichero cuyo contenido son # y espacios en blanco definiendo un laberinto válido(con 4 bordes y la penúltima casilla inferior derecha siendo vacía, de esta forma carga el laberinto leido del fichero y lo resuelve. El segundo método de ejecución es incluyendo como paramétros las dimensiones de altura y largo del tablero, así como la densidad del mismo es decir que candidad de casillas son paredes respecto del total, ejecutando de esta forma genera un laberinto aleatorio y trata de resolverlo. Para ejecutarlo lanzar los siguientes comandos:
+
+```
+make -f makeLAB
+./mainLab 30 30 0.15
+```
+Los valores 30 son el alto y el largo, el valor 0.15 es la densidad, estos valores se pueden sustituir.
+
 
 ## Juego del caballo
 
