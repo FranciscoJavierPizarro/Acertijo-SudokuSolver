@@ -14,6 +14,8 @@ Este repositorio contiene los siguientes programas:
 
 - Solucionador del acertijo de las fichas(8 puzzle lineal)
 
+- Solucionador del problema del viajero con A*
+
 ## Snake game
 
 Es el clásico juego, para ejecutarlo lanzar el siguiente comando:
@@ -118,3 +120,17 @@ Una vez lanzado escribir en la terminal clips lo siguiente
 ```
 (run)
 ```
+## Problema del viajero
+Se tiene un mapa de Rumania y se pretende viajar desde la ciudad de Arad hasta la ciudad de Bucarest, empleando para ello la ruta óptima.
+
+Para resolverlo se ha empleado una implementación del algoritmo de búsqueda informada A*.
+
+### Como ejecutarlo
+
+Emplear OCamlc en su version 4.11.1
+
+```
+ocamlc traveler.ml -o traveler
+```
+
+Una vez compilado lanzar el ejecutable generado.
